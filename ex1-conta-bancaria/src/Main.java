@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Bem-vindo ao Conta Bancária!");
         System.out.println("Informe o saldo da conta: ");
         double saldoInicial = scanner.nextDouble();
         ContaBancaria conta = new ContaBancaria(saldoInicial);
